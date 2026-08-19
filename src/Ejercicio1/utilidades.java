@@ -18,13 +18,13 @@ public class utilidades {
      public void pares( int[] par, int cont, int valor){
         par[cont]=valor;
     }
-        public void impares( int[] par, int cont, int valor){
-        par[cont]=valor;
+        public void impares( int[] impar, int cont, int valor){
+        impar[cont]=valor;
     }
      public int contarMayDiez(int[] mayDies) {
         int cont = 0;
         for (int i = 0; i < mayDies.length; i++) {
-            if (mayDies[i] >=10) {
+            if (mayDies[i] >10) {
                 cont++;
             }
         }
@@ -34,7 +34,7 @@ public class utilidades {
     public int contarMenCinco(int[] menCinc) {
         int cont = 0;
         for (int i = 0; i < menCinc.length; i++) {
-            if (menCinc[i] <=5) {
+            if (menCinc[i] <5) {
                 cont++;
             }
         }
